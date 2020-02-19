@@ -11,3 +11,10 @@ nav.navbar.navbar-default {
     display: block;
   }
 
+  .searchContainer {
+    width: 100%;
+  }
+
+  .navbar {
+    display: block;
+  }

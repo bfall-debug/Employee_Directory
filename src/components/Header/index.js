@@ -8,7 +8,10 @@ export default function Navbar() {
         <nav className="navbar text-center navbar-expand-lg navbar-light ">
             Employee Directory
         </nav>
-        <SearchBar/>
+        <div className="searchContainer">
+          <SearchBar/>
+        </div>
+        
     </div>
     
   );
