@@ -6,7 +6,7 @@ export default function SearchForm(props) {
   return (
     <form className="search">
       <div className="form-group">
-        <label htmlFor="language">Search Term:</label>
+        <label htmlFor="language"/>
         <input
           value={props.search}
           onChange={props.handleInputChange}
@@ -14,7 +14,7 @@ export default function SearchForm(props) {
           list="term"
           type="text"
           className="form-control"
-          placeholder="Type in a search term to begin"
+          placeholder="Search Employees"
           id="term"
         />
       </div>
