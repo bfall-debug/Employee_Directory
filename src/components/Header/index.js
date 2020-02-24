@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import SearchBar from "../SearchBar";
+// import SearchBar from "../SearchBar";
 
 export default function Navbar() {
   return (
@@ -8,9 +8,9 @@ export default function Navbar() {
         <nav className="navbar text-center navbar-expand-lg navbar-light ">
             Employee Directory
         </nav>
-        <div className="searchContainer">
+        {/* <div className="searchContainer">
           <SearchBar/>
-        </div>
+        </div> */}
         
     </div>
     
